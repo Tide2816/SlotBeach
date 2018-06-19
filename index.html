@@ -18,7 +18,9 @@
 	<!-- Chrome for Android web app tags -->
 	<meta name="mobile-web-app-capable" content="yes" />
 	<link rel="shortcut icon" sizes="256x256" href="icon-256.png" />
-
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bizstore.io/bizapp-0.0.2.min.js"></script>
     <!-- All margins and padding must be zero for the canvas to fill the screen. -->
 	<style type="text/css">
 		* {
@@ -43,6 +45,7 @@
 </head> 
  
 <body> 
+	<bizapp-root>
 	<div id="fb-root"></div>
 	
 	<script>
@@ -132,5 +135,6 @@
 			}
 		};
     </script>
+   </bizapp-root>
 </body> 
 </html> 
